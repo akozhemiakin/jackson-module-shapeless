@@ -2,14 +2,13 @@ package ru.arkoit.jackson.module.shapeless
 
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.module.scala.DefaultScalaModule
-import com.fasterxml.jackson.module.scala.experimental.ScalaObjectMapper
 import org.scalatest.{Matchers, FlatSpec}
 import shapeless._
 
 class HListModuleTest extends FlatSpec with Matchers {
   class Foo[T](val hlist: T)
 
-  val mapper = new ObjectMapper with ScalaObjectMapper
+  val mapper = new ObjectMapper
   mapper.registerModule(new DefaultScalaModule with HListModule)
 
   "HListModule" should "serialize an HList" in {

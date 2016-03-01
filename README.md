@@ -9,7 +9,7 @@ import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.module.scala.DefaultScalaModule
 import ru.arkoit.jackson.module.shapeless.HListModule
 
-val mapper = new ObjectMapper with ScalaObjectMapper
+val mapper = new ObjectMapper
 mapper.registerModule(new DefaultScalaModule with HListModule)
 ```
 ## Future plans
