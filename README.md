@@ -2,6 +2,26 @@
 [![Build Status](https://travis-ci.org/numesmat/jackson-module-shapeless.svg?branch=master)](https://travis-ci.org/numesmat/jackson-module-shapeless)
 ## Overview
 This is a tiny module for the [Jackson][] serialization library. This module allows to serialize [Shapeless][] HLists.
+## Installation
+This module is published at Maven Central. Use the following _sbt_ snippet ...
+
+* for the _stable_ release:
+
+```scala
+libraryDependencies ++= Seq(
+  "ru.arkoit.jackson.module" %% "shapeless" % "0.1.0"
+)
+```
+
+* for the `SNAPSHOT` version:
+
+```scala
+resolvers += Resolver.sonatypeRepo("snapshots")
+
+libraryDependencies ++= Seq(
+  "ru.arkoit.jackson.module" %% "shapeless" % "0.1.1-SNAPSHOT" changing()
+)
+```
 ## Usage
 Mixin this module as you usually do with other Scala Jackson Modules. For example, it can be used like this:
 ```scala
