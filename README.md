@@ -1,5 +1,5 @@
 # Jackson Shapeless Module
-[![Build Status](https://travis-ci.org/akozhemiakin/jackson-module-shapeless.svg?branch=master)](https://travis-ci.org/numesmat/jackson-module-shapeless)
+[![Build Status](https://travis-ci.org/akozhemiakin/jackson-module-shapeless.svg?branch=master)](https://travis-ci.org/akozhemiakin/jackson-module-shapeless)
 ## Overview
 This is a tiny module for the [Jackson][] serialization library. This module allows to serialize [Shapeless][] HLists.
 ## Installation
