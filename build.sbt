@@ -1,7 +1,7 @@
 import sbt.Keys._
 
 lazy val commonSettings = Seq(
-  version := "0.1.1-SNAPSHOT",
+  version := "0.1.1",
   organization := "ru.arkoit.jackson.module",
   scalaVersion := "2.11.7",
   autoAPIMappings := true,
