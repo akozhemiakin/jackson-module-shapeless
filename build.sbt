@@ -47,7 +47,7 @@ lazy val publishSettings = Seq(
 )
 
 lazy val versions = new {
-  val jackson = "2.7.2"
+  val jackson = "2.5.3"
   val shapeless = "2.2.5"
 }
 
