@@ -9,7 +9,7 @@ This module is published at Maven Central. Use the following _sbt_ snippet ...
 
 ```scala
 libraryDependencies ++= Seq(
-  "ru.arkoit.jackson.module" %% "shapeless" % "0.1.0"
+  "ru.arkoit.jackson.module" %% "shapeless" % "0.1.1"
 )
 ```
 
@@ -19,7 +19,7 @@ libraryDependencies ++= Seq(
 resolvers += Resolver.sonatypeRepo("snapshots")
 
 libraryDependencies ++= Seq(
-  "ru.arkoit.jackson.module" %% "shapeless" % "0.1.1-SNAPSHOT" changing()
+  "ru.arkoit.jackson.module" %% "shapeless" % "0.1.2-SNAPSHOT" changing()
 )
 ```
 ## Usage
