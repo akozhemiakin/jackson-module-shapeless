@@ -32,7 +32,7 @@ lazy val publishSettings = Seq(
   homepage := Some(url("https://github.com/akozhemiakin/jackson-module-shapeless")),
   scmInfo := Some(
     ScmInfo(
-      url("https://github.com/akozhemiakin/jackson-module-shapeles"),
+      url("https://github.com/akozhemiakin/jackson-module-shapeless"),
       "scm:git:git@github.com:akozhemiakin/jackson-module-shapeless.git"
     )
   ),
